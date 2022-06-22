@@ -1,0 +1,197 @@
+.goods-list {
+    // background-color: #ffffff;
+    background-color: #edecee;
+    // height: 100%;
+
+    // top返回栏
+    &-top {
+        height: 160px;
+        padding: 50px 40px 0px;
+        background-color: #ffffff;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+
+        &-back {
+            width: 50px;
+            height: 50px;
+            padding: 4px;
+        }
+
+        &-rt {
+            border: 0px solid $color-a6;
+            border-width: 1px;
+            border-radius: 40px;
+            width: 70%;
+            padding: 4px 20px;
+
+            &-input {
+                color: $color-6e;
+                font-size: 28px;
+            }
+        }
+
+        &-act {
+            font-size: 32px;
+            color: $color-brand;
+            width: 80px;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+        }
+
+        &-end {
+            width: 80px;
+            font-size: 30px;
+            color: $color-text;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+        }
+    }
+
+    // tab
+    &-tab {
+        background-color: rgb(255, 255, 255);
+    }
+
+    // list
+    &-score {
+        height: 500px;
+        // height: calc(100vh - 300px);
+
+        &-cent {
+            margin-top: 10px;
+
+            // top
+            &-top {
+                margin-bottom: 6px;
+
+                &-center {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: flex-start;
+
+                    &-title {
+                        font-size: 32px;
+                        color: $color-text;
+                        margin-bottom: 10px;
+
+                        &-text {
+                            font-size: 26px;
+                            color: $color-4;
+                        }
+                    }
+                }
+
+                &-right {
+                    font-size: 28px;
+                    color: $color-4;
+                }
+            }
+
+            // item
+            &-item {
+                display: flex;
+                flex-direction: row;
+                align-items: flex-start;
+                justify-content: space-between;
+                background-color: #ffffff;
+                padding: 20px 32px;
+
+                &-lf {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: flex-start;
+                    justify-content: flex-start;
+
+                    &-title {
+                        font-size: 34px;
+                        color: $color-text;
+                        margin-bottom: 10px;
+
+                    }
+
+                    &-info {
+                        font-size: 32px;
+                        color: $color-text;
+                        margin-bottom: 10px;
+                        display: flex;
+                        flex-direction: row;
+                        align-items: center;
+
+                        &-text {
+                            font-size: 28px;
+                            color: $color-4;
+                            display: flex;
+                            flex-direction: row;
+                            align-items: center;
+                            padding-top: 4px;
+                        }
+                    }
+                }
+
+                &-rt {
+
+                    margin-top: 40px;
+
+                    &-box {
+                        margin-bottom: 16px;
+                        max-width: 260px;
+                        text-align: center;
+
+                        &-but {
+                            font-size: 26px;
+                            line-height: 60px;
+                            // padding: 24px 0;
+                            font-weight: 400;
+                            display: flex;
+                            flex-direction: row;
+                            justify-content: center;
+                            color: #ffffff;
+                        }
+                    }
+                }
+            }
+
+            // ban
+            &-ban {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: flex-start;
+                background-color: #ffffff;
+                padding: 0px 32px 20px;
+
+                &-img {
+                    width: 200px;
+                    height: 200px;
+                }
+            }
+        }
+
+
+
+
+    }
+
+    // but
+    &-but {
+        height: 200px;
+        background-color: #fff;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        padding: 10px 40px;
+
+        &-cent {
+            line-height: 90px;
+            font-size: 34px;
+            font-weight: 700;
+            color: #fff;
+        }
+
+    }
+}

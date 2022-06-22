@@ -1,0 +1,36 @@
+.contact {
+    background-color: #edecee;
+
+    @import './index.rn.scss';
+
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
+    &-top {
+        height: 220px !important;
+
+        &-sear {
+            margin: 40px 0 10px !important;
+        }
+
+        &-new {
+            padding-bottom: 20px;
+        }
+    }
+
+    &-score {
+        height: calc(100vh - 220px);
+
+        &-index {
+            height: calc(100vh - 420px);
+        }
+    }
+
+}
+
+page {
+    background-color: #edecee;
+}

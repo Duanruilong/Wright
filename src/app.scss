@@ -1,0 +1,28 @@
+/*  #ifdef  h5  */
+* {
+    box-sizing: border-box;
+}
+
+taro-view-core,
+taro-text-core,
+div {
+    font-size: 32px;
+}
+
+// .weui-tabbar__item {
+    //     padding: 20px 0;
+    // }
+// .weui-tabbar__icon {
+    //     width: 100%;
+    //     height: 81px;
+    // }
+
+/*  #endif  */
+
+/*  #ifdef  weapp  */
+view,
+text {
+    box-sizing: border-box;
+}
+
+/*  #endif */

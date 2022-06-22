@@ -1,0 +1,26 @@
+.order-review {
+    background-color: #edecee;
+
+    @import './index.rn.scss';
+
+    height: 100%;
+
+    .order-review-score {
+        height: calc(100vh - 180px);
+
+    }
+
+
+
+    &-cent-item-descriptor {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        // width: 100%;
+    }
+
+}
+
+page {
+    background-color: #edecee;
+}

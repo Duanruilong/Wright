@@ -1,0 +1,20 @@
+.cash {
+    background-color: #edecee;
+
+    @import './index.rn.scss';
+
+    height: 100%;
+
+    .cash-score {
+        height: calc(100vh - 300px);
+
+    }
+
+    .y-title-task {
+        margin-bottom: 10px;
+    }
+}
+
+page {
+    background-color: #edecee;
+}

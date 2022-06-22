@@ -1,0 +1,90 @@
+.payment {
+    background-color: #edecee;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
+    &-but {
+        height: 100px;
+
+        &-item {
+            font-size: 68px;
+            line-height: 68px;
+            color: $color-text;
+            padding-right: 20px;
+        }
+    }
+
+    // list
+    &-score {
+        &-item {
+            width: 750px;
+            margin-top: 10px;
+            position: relative;
+
+            &-touch {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 750px;
+                height: 100%;
+                padding-bottom: 10px;
+                background-color: rgba(0, 0, 0, 0.4);
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: flex-end;
+                padding: 0 40px;
+
+                &-but {
+                    width: 160px;
+                    height: 90px;
+                    padding: 10px 30px;
+                    background-color: $color-brand;
+                    border-radius: 60px;
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    justify-content: center;
+
+                    &-img {
+                        width: 50px;
+                        height: 50px;
+                    }
+                }
+            }
+
+            &-center {
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                width: 560px;
+                // overflow: hidden;
+
+                &-title {
+                    font-size: 34px;
+                    color: $color-text;
+                    font-weight: 400;
+                    flex-direction: row;
+                }
+
+                &-time {
+                    font-size: 26px;
+                    color: $color-a6;
+                    flex-direction: row;
+                    flex-wrap: wrap;
+                }
+
+
+            }
+
+            &-rt {
+                width: 60px;
+                height: 60px;
+                margin-left: 10px;
+            }
+        }
+    }
+}

@@ -1,0 +1,29 @@
+.y-order-card {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 24px;
+  @import './index.rn.scss';
+
+  &-cent-title {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: inherit;
+
+  }
+
+  &-cent-descriptor {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: inherit;
+
+  }
+}
+
+page {
+  background-color: #edecee;
+}

@@ -1,0 +1,21 @@
+.add-new {
+    background-color: #edecee;
+
+    @import './index.rn.scss';
+
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
+    &-score {
+        height: calc(100vh - 200px);
+
+    }
+
+}
+
+page {
+    background-color: #edecee;
+}

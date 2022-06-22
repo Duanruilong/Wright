@@ -1,0 +1,28 @@
+.y-increase {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+  &-red {
+    font-size: 40px;
+    padding: 0 20px;
+    color: $color-brand;
+    // line-height: 28px;
+  }
+
+
+  &-value {
+    color: $color-text;
+    font-size: 32px;
+    min-width: 50px;
+    text-align: center;
+  }
+
+  &-add {
+    font-size: 50px;
+    padding: 0 20px;
+    color: $color-brand;
+    // line-height: 28px;
+  }
+}

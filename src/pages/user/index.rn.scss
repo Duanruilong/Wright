@@ -1,0 +1,126 @@
+.user {
+    // background-color: #ffffff;
+    background-color: #edecee;
+    // padding: 22PX 0 0;
+    // height: 100%;
+    // position: relative;
+    // padding-bottom: 20px;
+
+    &-info {
+        height: 240PX;
+        background-color: $color-brand;
+        padding: 24px 42px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+
+        &-center {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            padding-top: 40px;
+
+            &-top {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+
+                &-image {
+                    width: 100px;
+                    height: 100px;
+                }
+
+                &-item {
+                    display: flex;
+                    flex-direction: column;
+                    margin-left: 30px;
+                    min-width: 360px;
+
+                    &-name {
+                        width: 100%;
+                        margin-bottom: 10px;
+                        display: flex;
+                        flex-direction: row;
+                        align-items: center;
+                        font-size: 48px;
+                        color: $color-text;
+                        font-weight: 700;
+
+                    }
+
+                    &-verified {
+                        margin-top: 20px;
+                        width: 180px;
+                        border: 2px solid #515151;
+                        border-radius: 30px;
+                        padding: 4px 10px;
+                        text-align: center;
+                        line-height: 26px;
+                        font-size: 24px;
+                        // display: inline-block;
+                    }
+                }
+            }
+
+
+        }
+
+        &-code {
+            display: flex;
+            flex-direction: row;
+
+            &-image {
+                width: 60px;
+                height: 60px;
+            }
+
+            &-icon {
+                width: 60px;
+                height: 60px;
+            }
+        }
+
+        &-list {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 20px;
+            padding: 0 30px;
+
+
+
+            &-item {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+
+                &-name {
+                    font-size: 58px;
+                    color: $color-text;
+                    font-weight: 700;
+
+                }
+
+                &-title {
+                    font-size: 28px;
+                    font-weight: 700;
+                    color: $color-text;
+                }
+            }
+        }
+    }
+
+    &-list {
+        // background-color: #edecee;
+
+        &-item {
+            margin-bottom: 10px;
+        }
+
+        &-sep {
+            height: 30px;
+        }
+    }
+}

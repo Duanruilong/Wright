@@ -1,0 +1,140 @@
+.search-res {
+    width: 100%;
+    // height: 100%;
+    display: flex;
+
+    // 固定部分
+    &-fix {
+        width: 100%;
+        height: 270px;
+
+        // top返回栏
+        &-top {
+            height: 170px;
+            background-color: #ffffff;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+            padding: 90px 40px 20px;
+
+            &-back {
+                width: 50px;
+                height: 50px;
+                padding: 4px;
+            }
+
+            &-rt {
+                border: 0px solid $color-a6;
+                border-width: 1px;
+                border-radius: 40px;
+                width: 80%;
+                padding: 4px 20px;
+
+                &-input {
+                    color: $color-6e;
+                    font-size: 28px;
+                    display: flex;
+                    justify-content: flex-start;
+                    flex-direction: row;
+                    align-items: center;
+                }
+            }
+        }
+
+        // tab
+        &-tab {
+            background-color: #ffffff;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            flex: 1;
+
+            &-lr {
+                width: 580px;
+            }
+
+            &-fil {
+                // flex: 1;
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                padding: 0 20px;
+
+                &-img {
+                    width: 40px;
+                    height: 40px;
+                    margin-right: 10px;
+                }
+
+                &-text {
+                    font-size: 28px;
+                    color: $color-4;
+                }
+            }
+        }
+
+    }
+
+    &-score {
+        height: 100%;
+    }
+
+    &-like {
+        width: 100%;
+        height: 100%;
+        padding: 20px 32px 0;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+
+    // mask
+    &-mask {
+        width: 100%;
+        height: 100%;
+        background-color: #ffffff;
+
+        &-clo {
+            background-color: #edecee;
+            display: flex;
+            justify-content: space-between;
+            flex-direction: row;
+            align-items: center;
+            height: 160px;
+            padding: 50px 40px 0px;
+
+            &-img {
+                width: 40px;
+                height: 40px;
+            }
+
+            &-tex {
+                font-size: 34px;
+                font-weight: 400;
+                color: $color-text;
+            }
+        }
+
+        &-center {
+            padding: 10px 40px;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+
+            &-item {
+                margin-top: 20px;
+
+                &-text {
+                    font-size: 36px;
+                    font-weight: 400;
+                    color: $color-text;
+                }
+            }
+        }
+    }
+
+}

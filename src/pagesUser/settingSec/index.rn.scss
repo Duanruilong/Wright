@@ -1,0 +1,101 @@
+.setting-sec {
+    // background-color: #ffffff;
+    background-color: #edecee;
+    // height: 100%;
+
+    &-item {
+        margin-bottom: 10px;
+
+        &-rt {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: flex-end;
+            text-align: right;
+
+            &-tex {
+                font-size: 30px;
+                color: $color-6e;
+                margin: 0 10px;
+            }
+
+            &-img {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                width: 48px;
+                height: 48px;
+            }
+        }
+
+        &-notion {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+        }
+    }
+
+    // pass
+    &-pass {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+
+        &-cent {
+            width: 100%;
+
+            &-item {
+                margin-bottom: 10px;
+
+                &-rt {
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    justify-content: flex-end;
+                    text-align: right;
+
+                    &-tex {
+                        color: $color-6e;
+                        margin-right: 20px;
+                        text-align: right;
+                        width: 460px;
+                        font-size: 26px;
+                        font-weight: 400;
+                    }
+
+                    &-img {
+                        display: flex;
+                        flex-direction: row;
+                        align-items: center;
+                        width: 48px;
+                        height: 48px;
+                    }
+                }
+            }
+
+            &-col {
+                margin-top: 40px;
+            }
+        }
+
+        &-but {
+            height: 200px;
+            width: 100%;
+            padding: 0 40px;
+            background-color: #fff;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+
+            &-cent {
+                font-size: 32px;
+                font-weight: 700;
+                color: #ffffff;
+                line-height: 90px;
+            }
+        }
+    }
+}

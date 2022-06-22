@@ -1,0 +1,18 @@
+page {
+  background-color: #ffffff;
+}
+
+.login {
+  background-color: #ffffff;
+
+  @import './index.rn.scss';
+
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  padding: 32px;
+
+}

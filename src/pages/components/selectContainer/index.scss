@@ -1,0 +1,78 @@
+.doctor {
+  .search-con {
+    display: flex;
+    align-items: center;
+    /* prettier-ignore */
+    height: 60PX;
+
+    .search {
+      /* prettier-ignore */
+      height: 36PX;
+      flex: 1;
+    }
+
+    .add {
+      /* prettier-ignore */
+      width: 30PX;
+      /* prettier-ignore */
+      height: 30PX;
+      margin: 0 32px 0 0;
+    }
+  }
+
+  .item {
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding: 20px 38px;
+    margin: 0 32px 24px;
+    background: #ffffff;
+    border-radius: 16px;
+    border: 1px solid #ffffff;
+
+    .icon {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 120px;
+      height: 120px;
+      margin-right: 32px;
+      background: rgba(243, 245, 248, 1);
+      // box-shadow: 0 4px 12px 0 rgba(5, 101, 159, 0.26);
+      border-radius: 50%;
+
+      image {
+        width: 84px;
+        height: 84px;
+        margin-top: 10px;
+      }
+    }
+
+    .content {
+      flex: 1;
+
+      .name-container {
+        display: flex;
+        align-items: center;
+      }
+
+      .name {
+        color: $color-brand;
+        font-size: 36px;
+        font-weight: 700;
+      }
+
+      .level {
+        margin-top: 10px;
+        color: #0b0b0b;
+        font-size: 24px;
+      }
+
+      .hospital {
+        margin-top: 10px;
+        font-size: 28px;
+        color: #0b0b0b;
+      }
+    }
+  }
+}

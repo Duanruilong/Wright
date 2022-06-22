@@ -1,0 +1,180 @@
+.search {
+    width: 100%;
+    // height: 100%;
+    display: flex;
+
+    // top返回栏
+    &-top {
+        height: 190px;
+        padding: 90px 40px 40px;
+        background-color: #ffffff;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+
+        &-back {
+            width: 50px;
+            height: 50px;
+            padding: 4px;
+        }
+
+        &-rt {
+            border: 0px solid $color-a6;
+            border-width: 1px;
+            border-radius: 40px;
+            width: 80%;
+            padding: 0px 10px;
+
+            &-input {
+                color: $color-6e;
+                font-size: 28px;
+                display: flex;
+                justify-content: flex-start;
+                flex-direction: row;
+                align-items: center;
+            }
+        }
+    }
+
+    // score
+    &-score {
+        width: 100%;
+
+        &-title {
+            font-size: 38px;
+            padding: 20px 42px 20px;
+            font-weight: 400;
+            background-color: #ffffff;
+
+        }
+
+
+        &-like {
+            width: 100%;
+            height: 100%;
+            padding: 20px 32px 0;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            background-color: #ffffff;
+        }
+    }
+
+
+    &-center {
+        height: 120px;
+        width: 100%;
+    }
+
+    &-input {
+        background-color: #edebef;
+        width: 80%;
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: row;
+        align-items: center;
+    }
+
+
+    //  HistoryLocal
+    &-local {
+        padding: 24px 40px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+
+        &-top {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+            margin: 0 20px 20px 0px;
+
+            &-lf {
+                font-size: 34px;
+                color: $color-text;
+            }
+
+            &-rt {
+                width: 50px;
+                height: 50px;
+
+                &-img {
+                    width: 50px;
+                    height: 50px;
+                }
+            }
+        }
+
+        &-cent {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: flex-start;
+            flex-wrap: wrap;
+
+            &-item {
+                border: 0 solid rgba(0, 0, 0, 0.1);
+                border-width: 2px;
+                background-color: #dddddd;
+                color: $color-6e;
+                border-radius: 30px;
+                padding: 0px 20px 4px;
+                margin-right: 20px;
+                margin-bottom: 20px;
+                line-height: 50px;
+                text-align: center;
+                min-width: 90px;
+                font-size: 26px;
+            }
+        }
+
+        &-hot {
+            color: $color-6e;
+            font-size: 26px;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: flex-start;
+            flex-wrap: wrap;
+
+            &-item {
+                color: $color-6e;
+                font-size: 28px;
+                width: 320px;
+                margin-bottom: 10px;
+                // background-color: rgb(231, 125, 125);
+            }
+        }
+
+
+    }
+
+
+
+    // filter
+    &-filter {
+        width: 560px;
+        padding: 100px 20px 140px;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        &-box {
+            height: 90px;
+            width: 400px;
+            margin: 0 auto;
+
+            &-but {
+                font-size: 32px;
+                font-weight: 700;
+                color: #ffffff;
+                line-height: 90px;
+            }
+        }
+    }
+}

@@ -1,0 +1,29 @@
+.tab-kind {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0 32px;
+
+  @import './index.rn.scss';
+
+
+  &-scroll-item-text-tr-up {
+    width: 26px !important;
+    height: 26px !important;
+
+    &-act {
+      opacity: 0.6
+    }
+  }
+
+  &-scroll-item-text-tr-down {
+    margin-top: 10px;
+    width: 26px !important;
+    height: 26px !important;
+    transform: rotate(-180deg);
+
+    &-act {
+      opacity: 0.6;
+    }
+  }
+}

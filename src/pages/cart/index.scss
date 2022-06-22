@@ -1,0 +1,46 @@
+.cart {
+    background-color: #edecee;
+
+    @import './index.rn.scss';
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    &-score {
+        height: calc(100vh - 360px);
+
+    }
+
+    &-but {
+        height: 300px !important;
+
+    }
+
+    &-score-test-score {
+        width: 100% !important;
+    }
+
+    &-score-item-cent-title {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        // width: 100%;
+    }
+
+    &-score-item-cent-descriptor {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        // width: 100%;
+    }
+
+    &-score-x-touch-but {
+        width: auto !important;
+    }
+}
+
+page {
+    background-color: #edecee;
+}

@@ -1,0 +1,184 @@
+.order-review {
+    // background-color: #ffffff;
+    background-color: #edecee;
+    height: 100%;
+
+    // top
+    &-top {
+        margin-bottom: 20px;
+
+        &-center {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+
+            &-title {
+                font-size: 32px;
+                color: $color-text;
+            }
+
+            &-text {
+                font-size: 28px;
+                color: $color-6e;
+            }
+        }
+
+        &-right {
+            font-size: 28px;
+            color: $color-4;
+        }
+    }
+
+    &-des {
+        &-img {
+            width: 50px;
+            height: 50px;
+            margin: 20px;
+        }
+    }
+
+    &-input {
+        font-size: 28px;
+        width: 400px;
+    }
+
+
+    // textArea
+    &-text {
+        margin-bottom: 100px;
+        padding: 0 32px 32px;
+        background-color: #ffffff;
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+
+
+        &-area {
+            height: 340px;
+            width: 100%;
+            border: 0px solid $color-border;
+            border-width: 1px;
+            border-radius: 10px;
+            padding: 20px;
+        }
+
+
+    }
+
+    // cent
+    &-cent {
+
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #fff;
+        margin-bottom: 10px;
+        padding: 24px 40px;
+
+        &-img {
+            width: 200px;
+            height: 200px;
+        }
+
+
+        &-item {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            flex-grow: 1;
+            margin-left: 20px;
+
+            &-top {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: space-between;
+                width: 460px;
+
+                &-title {
+                    font-size: 38px;
+                    line-height: 38px;
+                    color: $color-text;
+                    width: 460px;
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    justify-content: flex-start;
+                    flex-wrap: wrap;
+                    word-break: break-all;
+                }
+            }
+
+            &-price {
+                font-size: 30px;
+                color: $color-text;
+                display: flex;
+                flex-direction: row;
+                margin-top: 10px;
+            }
+
+            &-descriptor {
+                font-size: 26px;
+                color: #c8c8c8;
+                margin: 10px 0;
+                width: 460px;
+            }
+
+            &-bot {
+                display: flex;
+                flex-direction: row;
+                align-items: flex-start;
+                justify-content: space-between;
+                width: 460px;
+
+                &-tag {
+                    background-color: $color-border;
+                    border-radius: 40px;
+                    line-height: 24px;
+                    padding: 8px 20px;
+                    font-size: 24px;
+                    color: $color-6e;
+                }
+
+                &-box {
+                    width: 140px;
+                    height: 60px;
+                    line-height: 56px;
+                    text-align: center;
+                    font-size: 26px;
+                    color: #ffffff;
+                    font-weight: 400;
+                    background-color: $color-brand;
+                    border-radius: 40px;
+                }
+
+
+            }
+
+
+
+
+        }
+    }
+
+    // but
+    &-but {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 40px 40px;
+        width: 100%;
+        background-color: #ffffff;
+
+        &-text {
+            color: #ffffff;
+            font-weight: 700;
+            height: 80px;
+            line-height: 80px;
+            font-size: 38px;
+        }
+    }
+
+}

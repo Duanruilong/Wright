@@ -1,0 +1,24 @@
+.goods-price {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &-off {
+    // line-height: 34px;
+    font-size: 28px;
+    color: red;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  &-pice {
+    // line-height: 34px;
+    font-size: 46px;
+    color: $color-text;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    // margin-top: 10px;
+  }
+}

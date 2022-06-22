@@ -1,0 +1,93 @@
+.payment-edit {
+    // background-color: #ffffff;
+    background-color: #edecee;
+    height: 100%;
+
+    // list
+    &-score {
+        height: 500px;
+
+        &-item {
+            margin-bottom: 10px;
+
+            &-input {
+                text-align: right;
+                width: 360px;
+                font-size: 26px;
+                color: $color-6e;
+                font-weight: 400;
+            }
+
+            &-rt {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: flex-end;
+                text-align: right;
+
+                &-tex {
+                    font-size: 26px;
+                    color: $color-6e;
+                    font-weight: 400;
+                    margin-right: 20px;
+                    text-align: right;
+                    width: 360px;
+                }
+
+                &-img {
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    width: 48px;
+                    height: 48px;
+                }
+            }
+        }
+
+        // def
+        &-def {
+            margin: 40px 0 10px;
+
+            &-cen {
+                padding: 10px 0;
+
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: space-around;
+
+                &-img {
+                    width: 40px;
+                    height: 40px;
+                    margin-right: 20px;
+                    text-align: right;
+                }
+            }
+
+        }
+    }
+
+    // button
+    &-but {
+        width: 100%;
+        height: 200px;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        background-color: #fff;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        padding: 10px 40px;
+
+        &-cent {
+            line-height: 90px;
+            font-size: 34px;
+            font-weight: 700;
+            color: #fff;
+        }
+
+    }
+
+
+}

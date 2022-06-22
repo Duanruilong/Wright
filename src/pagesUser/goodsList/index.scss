@@ -1,0 +1,22 @@
+.goods-list {
+    background-color: #edecee;
+
+    @import './index.rn.scss';
+
+    height: 100%;
+
+    .goods-list-score {
+        height: calc(100vh - 280px);
+
+    }
+
+    &-top {
+     height: 120px !important;
+     padding: 10px 40px 0px !important;
+ }
+
+}
+
+page {
+    background-color: #edecee;
+}

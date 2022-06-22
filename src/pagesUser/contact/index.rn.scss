@@ -1,0 +1,111 @@
+.contact {
+    background-color: #edecee;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
+    // top返回栏
+    &-top {
+        width: 100%;
+        height: 170px;
+        background-color: #ffffff;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+
+        &-sear {
+            border: 0px solid $color-a6;
+            border-width: 1px;
+            border-radius: 40px;
+            width: 80%;
+
+            &-input {
+                color: $color-6e;
+                font-size: 28px;
+                display: flex;
+                justify-content: flex-start;
+                flex-direction: row;
+                align-items: center;
+            }
+        }
+
+        &-new {
+            margin: 0 40px;
+
+            &-img {
+                width: 50px;
+                height: 50px;
+            }
+        }
+    }
+
+
+    // list
+    &-score {
+        position: relative;
+
+        &-item {
+            width: 750px;
+            margin-top: 10px;
+            position: relative;
+
+            &-sort {
+                margin: 0 40px;
+                color: $color-6e;
+            }
+
+            &-lf {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+
+
+                &-box {
+                    width: 90px;
+                    height: 90px;
+                    background-color: $color-border;
+                    border-radius: 45px;
+                    overflow: hidden;
+
+                    &-img {
+                        width: 90px;
+                        height: 90px;
+                    }
+                }
+
+                &-cent {
+                    font-size: 34px;
+                    color: $color-text;
+                    display: flex;
+                    flex-direction: row;
+                    margin-left: 20px;
+                }
+            }
+        }
+
+        // Indexes
+        &-index {
+            position: absolute;
+            top: 240px;
+            right: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+
+            &-text {
+                padding: 0px 20px;
+                font-size: 26px;
+                color: $color-brand;
+                font-weight: 700;
+
+                &-active {
+                    color: $color-text;
+                }
+            }
+        }
+    }
+}

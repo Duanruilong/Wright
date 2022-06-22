@@ -1,0 +1,138 @@
+.login-sec {
+  background-color: #ffffff;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 0px 24px 40px;
+
+
+  &-tit {
+    font-size: 90px;
+    color: $color-text;
+    font-weight: 700;
+  }
+
+
+  // center
+  &-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    &-input {
+      padding: 0 24px;
+      border: 1px solid $color-border;
+      border-radius: 20px;
+      padding: 10px 12px;
+      width: 620px;
+      font-size: 28px;
+    }
+
+    &-forget {
+      font-size: 30px;
+      color: $color-brand;
+      width: 620px;
+      text-align: right;
+      margin: 40px 0 60px;
+    }
+
+    &-box {
+      margin-top: 60px;
+    }
+
+    // but
+    &-button {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      width: 640px;
+
+
+      &-text {
+        color: $color-text;
+        font-weight: 700;
+        height: 90px;
+        line-height: 90px;
+        font-size: 38px;
+      }
+    }
+  }
+
+  // tips
+  &-tips {
+    width: 640px;
+    margin: 30px 0px;
+    padding: 0 20px;
+    color: $color-a6;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    font-size: 22px;
+    line-height: 30px;
+
+    &-radio {
+      width: 50px;
+      height: 50px;
+      margin-right: 20px;
+    }
+
+    &-title {
+      width: 30px;
+      height: 30px;
+      margin: 6px;
+    }
+
+    &-item {
+      font-size: 26px;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+
+      &-active {
+        width: auto;
+        font-size: 26px;
+        color: $color-brand;
+        border: 0 solid $color-brand;
+        border-bottom-width: 1px;
+      }
+    }
+  }
+
+  // other
+  &-other {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    &-cen {
+      width: 640px;
+      margin-bottom: 40px;
+
+      &-but {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+
+        &-img {
+          width: 50px;
+          height: 50px;
+          margin-right: 10px;
+        }
+
+        &-text {
+          color: $color-text;
+          font-weight: 700;
+          height: 90px;
+          line-height: 90px;
+          font-size: 38px;
+        }
+      }
+    }
+
+  }
+}

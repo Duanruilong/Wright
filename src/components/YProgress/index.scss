@@ -1,0 +1,49 @@
+.progress {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: flex-start;
+  width: 160PX;
+
+  &-title {
+    font-size: 20px;
+    font-weight: 400;
+    color: $color-brand;
+  }
+
+  &-box {
+    position: relative;
+
+    &-back {
+      width: 100PX;
+      height: 30px;
+      margin: 10px 0;
+      background-color: rgba(216, 216, 216, 1);
+      border-radius: 20px;
+      position: relative;
+    }
+
+    &-front {
+      width: 2px;
+      height: 30px;
+      background-color: $color-brand;
+      border-radius: 20px;
+      position: absolute;
+      left: 0;
+      top: 0;
+    }
+
+    &-percent {
+      margin-left: 20px;
+      color: $color-brand;
+      font-size: 26px;
+      min-width: 70px;
+      line-height: 26px;
+      height: 30px;
+      font-weight: 400;
+      display: flex;
+      align-items: center;
+      flex-direction: row;
+    }
+  }
+}

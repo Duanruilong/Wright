@@ -1,0 +1,33 @@
+.chat-ing {
+    background-color: #ffffff;
+
+    @import './index.rn.scss';
+
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+
+    &-score {
+        height: calc(100vh - 120px);
+
+        &-more {
+            height: calc(100vh - 400px);
+
+        }
+    }
+
+    &-but-sco-item {
+        height: 520px !important;
+        overflow: scroll;
+    }
+
+    .taro-textarea {
+        height: 100%;
+    }
+
+}
+
+page {
+    background-color: #ffffff;
+}

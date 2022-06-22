@@ -1,0 +1,49 @@
+.user-group {
+    background-color: #edecee;
+
+    @import './index.rn.scss';
+
+    &-score {
+        height: calc(100vh - 1px);
+
+    }
+
+    &-mask-center-score {
+        height: 260PX
+    }
+
+    &-score-cent-item-cont-title {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        -webkit-line-clamp: 2;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        // height: 90px;
+        width: 500px;
+    }
+
+    &-score-cent-item-cont-info {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        -webkit-line-clamp: 2;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        // height: 90px;
+        width: 500px;
+    }
+
+    &-mask-center-info {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        -webkit-line-clamp: 3;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        // height: 90px;
+        // width: 500px;
+    }
+
+}
+
+page {
+    background-color: #edecee;
+}

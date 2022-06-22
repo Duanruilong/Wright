@@ -1,0 +1,31 @@
+.order-return {
+    background-color: #edecee;
+
+    @import './index.rn.scss';
+
+    height: 100%;
+
+    .order-return-score {
+        height: calc(100vh - 300px);
+
+    }
+
+    &-cent-item-top-title {
+        // white-space: nowrap;
+ // overflow: hidden;
+ // text-overflow: ellipsis;
+        // width: 100%;
+    }
+
+    &-cent-item-descriptor {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        // width: 100%;
+    }
+
+}
+
+page {
+    background-color: #edecee;
+}

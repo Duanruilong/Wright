@@ -1,0 +1,54 @@
+.tab-kind {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0 32px;
+    height: 100px;
+
+    &-scroll {
+        height: 90px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+
+        &-item {
+            text-align: center;
+            height: 100%;
+            margin-right: 38px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+
+            &-text {
+                padding-top: 18px;
+                color: #888888;
+                font-size: 32px;
+                font-weight: 700;
+                display: flex;
+                flex-direction: row;
+
+                &-active {
+                    color: $color-text;
+
+                }
+            }
+
+            &-border {
+                width: 80%;
+                height: 8px;
+                border-radius: 4px;
+
+                &-active {
+                    background: $color-brand;
+                }
+            }
+        }
+    }
+
+    &-image {
+        height: 50px;
+        width: 50px;
+        margin-left: 10px;
+    }
+}

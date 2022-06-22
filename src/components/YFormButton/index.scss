@@ -1,0 +1,30 @@
+.y-form-button {
+  display: flex;
+  align-items: center;
+  padding: 0 24px;
+  margin: 24px 0;
+  background: rgba(0, 90, 160, 0.05);
+  border-radius: 8px;
+
+  .y-form-button-label {
+    min-width: 140px;
+    font-size: 28px;
+    font-weight: 700;
+    color: #222222;
+  }
+
+  .y-form-button-button {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    min-height: 34px;
+    padding: 24px 0;
+    font-size: 24px;
+    color: #888888;
+  }
+
+  .y-form-button-button-active {
+    color: #000000;
+  }
+}

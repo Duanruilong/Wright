@@ -1,0 +1,140 @@
+.y-order-card {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 24px;
+
+
+  &-radio {
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+
+  }
+
+  &-img {
+    width: 160px;
+    height: 160px;
+    // margin-left: 20px;
+  }
+
+  &-cent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+    width: 500px;
+
+    &-sel {
+      width: 460px;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: space-around;
+    }
+
+    &-title {
+      font-size: 32px;
+      color: $color-text;
+      // width: inherit;
+    }
+
+    &-descriptor {
+      font-size: 26px;
+      color: #c8c8c8;
+      margin: 10px 0;
+      // width: inherit;
+    }
+
+    &-comments {
+      display: flex;
+      flex-direction: row;
+      margin-top: 10px;
+
+      &-buy {
+        font-size: 24px;
+        padding-top: 6px;
+        padding-left: 6px;
+        color: $color-a6;
+      }
+    }
+
+    &-info {
+      background-color: $color-border;
+      font-size: 24px;
+      color: $color-6e;
+      border-radius: 40px;
+      padding: 0px 18px;
+      margin-top: 8px;
+    }
+
+    &-inc {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: flex-start;
+      margin-top: 2px;
+      // width: inherit;
+
+      &-price {
+        font-size: 32px;
+        color: $color-text;
+        margin: 10px 0 0;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+      }
+
+      &-origin {
+        font-size: 24px;
+        color: $color-a6;
+        margin: 18px 0 0 18px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+      }
+
+      &-increase {
+        font-size: 28px;
+
+      }
+    }
+
+
+
+
+
+    &-more {
+      font-size: 32px;
+      color: #c8c8c8;
+      margin: 30px;
+      text-align: center;
+    }
+
+    &-center {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      align-items: flex-start;
+
+      &-title {
+        font-size: 38px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+      }
+
+      &-time {
+        font-size: 28px;
+        color: $color-6e;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+      }
+    }
+  }
+
+
+}

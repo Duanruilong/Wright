@@ -1,0 +1,64 @@
+.y-input {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  width: 100%;
+  // border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  border: 0 solid rgba(0, 0, 0, 0.1);
+  // border-bottom-width: 2px;
+  color: red;
+
+  &-error {
+    color: red;
+  }
+
+  &-title {
+    min-width: 20%;
+    padding-right: 20px;
+
+    &-error {
+      color: red;
+    }
+  }
+
+  &-input {
+    flex: 1;
+    padding: 4px;
+    font-size: 32px;
+    color: #000;
+    line-height: 44px;
+    width: 100%;
+  }
+
+  &-cloison {
+    width: 38px;
+    height: 38px;
+    // padding-right: 12px;
+  }
+
+
+
+  .y-input-cloison {
+    width: 48px;
+    height: 48px;
+    // margin-right: 12px;
+  }
+
+}
+
+// .iconfont {
+//   font-family: 'iconfont';
+//   font-size: 16px;
+//   font-style: normal;
+//   -webkit-font-smoothing: antialiased;
+//   -moz-osx-font-smoothing: grayscale;
+// }
+
+// @font-face {
+//   font-family: 'iconfont';
+//   /* Project id 2089622 */
+//   src: url('//at.alicdn.com/t/font_2089622_9e30pkrm9j6.woff2?t=1623810785100') format('woff2'),
+//     url('//at.alicdn.com/t/font_2089622_9e30pkrm9j6.woff?t=1623810785100') format('woff'),
+//     url('//at.alicdn.com/t/font_2089622_9e30pkrm9j6.ttf?t=1623810785100') format('truetype');
+// }

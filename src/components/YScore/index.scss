@@ -1,0 +1,12 @@
+.y-score {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  &-item {
+    width: 30px;
+    height: 30px;
+    // height: 100%;
+    margin-right: 10px;
+  }
+}

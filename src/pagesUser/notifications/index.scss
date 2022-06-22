@@ -1,0 +1,22 @@
+.notifications {
+    background-color: #edecee;
+
+    @import './index.rn.scss';
+
+    height: 100%;
+
+    .notifications-score {
+        height: calc(100vh);
+
+    }
+
+    &-score-item-cent-title-info {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+}
+
+page {
+    background-color: #edecee;
+}

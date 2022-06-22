@@ -1,0 +1,139 @@
+.cash {
+    // background-color: #ffffff;
+    background-color: #edecee;
+    height: 100%;
+
+    &-list {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: flex-end;
+        padding: 0px 0px 50px;
+        height: 200px;
+
+        &-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            &-active {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                font-size: 60px;
+                color: $color-brand;
+            }
+
+            &-name {
+                font-size: 40px;
+                color: $color-text;
+            }
+
+            &-title {
+                font-size: 32px;
+                color: $color-text;
+            }
+        }
+
+        &-box {
+            width: 280px;
+
+            &-but {
+                font-size: 32px;
+                line-height: 70px;
+                text-align: center;
+                color: #ffffff;
+                font-weight: 700;
+            }
+        }
+    }
+
+    &-item {
+        margin-bottom: 10px;
+    }
+
+    &-earn {
+        height: 100px;
+        margin-bottom: 10px;
+
+        &-item {
+            font-size: 28px;
+            color: $color-a6;
+        }
+
+    }
+
+    // list
+    &-score {
+        height: 500px;
+        // height: calc(100vh - 300px);
+
+        &-item {
+            margin-bottom: 10px;
+        }
+
+        &-center {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            align-items: flex-start;
+
+            &-title {
+                font-size: 38px;
+                color: $color-text;
+
+            }
+
+            &-time {
+                font-size: 28px;
+                color: $color-a6;
+            }
+        }
+
+        &-right {
+            font-size: 28px;
+            color: $color-4;
+        }
+    }
+
+    // mask
+    &-mask {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        top: 30%;
+
+        &-center {
+
+            width: 580px;
+            background-color: #ffffff;
+            padding: 40px;
+            border-radius: 20px;
+
+            &-title {
+                // width: 100%;
+                font-size: 42px;
+                font-weight: 700;
+                color: $color-text;
+            }
+
+            &-center {
+                width: 100%;
+                font-size: 28px;
+                color: $color-6e;
+            }
+        }
+
+        &-image {
+            width: 68px;
+            height: 68px;
+            margin-top: 60px;
+        }
+
+
+    }
+
+
+}

@@ -1,0 +1,29 @@
+.profile {
+    background-color: #edecee;
+
+    @import './index.rn.scss';
+
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+
+    // padding-top: 42px;
+    .profile-center-name {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    .y-title-task {
+        margin-bottom: 10px;
+    }
+
+    .weui-input {
+        text-align: right !important;
+    }
+}
+
+page {
+    background-color: #edecee;
+}

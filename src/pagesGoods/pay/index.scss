@@ -1,0 +1,36 @@
+.banner-detail {
+
+    @import './index.rn.scss';
+
+    height: 100%;
+    background-color: #edecee;
+
+    &-score {
+        height: calc(100vh - 9px);
+    }
+
+    &-image {
+        width: 100% !important;
+        height: 360px;
+        margin-bottom: 20px;
+    }
+
+
+    &-like-list-center-title-text {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    &-like-list-center-descriptor {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+
+}
+
+page {
+    background-color: #edecee;
+}

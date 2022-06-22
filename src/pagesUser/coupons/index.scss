@@ -1,0 +1,31 @@
+.coupons {
+
+    @import './index.rn.scss';
+
+    height: 100%;
+    background-color: #edecee;
+
+
+    .coupons-score {
+        height: calc(100vh - 220px);
+    }
+
+    &-score-item-center-right-title-box {
+        width: auto !important;
+    }
+
+    &-score-item-center-right-info {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        width: 400px !important;
+    }
+
+    // .y-title-task {
+    //     margin-bottom: 10px;
+    // }
+}
+
+page {
+    background-color: #edecee;
+}

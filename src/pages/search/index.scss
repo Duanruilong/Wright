@@ -1,0 +1,20 @@
+.search {
+    background-color: #eaeaea;
+
+    @import './index.rn.scss';
+    height: 100%;
+
+    &-score {
+        height: calc(100vh - 220px);
+    }
+
+    &-top {
+        height: 120px !important;
+        padding: 40px 40px 40px !important;
+
+    }
+}
+
+page {
+    background-color: #eaeaea;
+}

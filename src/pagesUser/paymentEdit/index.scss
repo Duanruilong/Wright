@@ -1,0 +1,17 @@
+.payment-edit {
+    background-color: #edecee;
+
+    @import './index.rn.scss';
+
+    height: 100%;
+
+    .payment-edit-score {
+        height: calc(100vh - 200px);
+
+    }
+
+}
+
+page {
+    background-color: #edecee;
+}
