@@ -1,9 +1,9 @@
 import { ENV } from "../constants";
 
 const hostMap = {
-  dev: "https://wright.zhsq.work:8085/wright/api"
-  // qa: "https://wright.zhsq.work:8085/wright/api",
-  // prod: "https://wright.zhsq.work:8085/wright/api"
+  dev: "https://wright.zhsq.work:8085/wright/api",
+  qa: "https://wright.zhsq.work:8085/wright/api",
+  prod: "https://wright.zhsq.work:8085/wright/api"
 };
 
 const servers = {
