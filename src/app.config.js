@@ -82,8 +82,8 @@ export default defineAppConfig({
       {
         pagePath: "pages/index/index",
         text: "Wright",
-        iconPath: "assets/worktop1.png",
-        selectedIconPath: "assets/worktop_select1.png"
+        iconPath: "assets/worktop.png",
+        selectedIconPath: "assets/worktop_select.png"
       },
       {
         pagePath: "pages/chat/index",
