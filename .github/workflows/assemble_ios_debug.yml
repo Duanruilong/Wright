@@ -4,26 +4,26 @@ name: Assemble Ios Debug
 # 触发工作流程的事件
 on:
   push:
-    # branches: [ master ]
+    branches: [ master ]
     tags: [v*]
-  # pull_request:
-  #   branches: [ master ]
+  pull_request:
+    branches: [ master ]
 
   workflow_dispatch:
 
 # 工作流环境变量
 env:
   # 应用的application_id
-  APP_ID: com.taro.demo
-  APP_NAME: Taro Demo
+  APP_ID: ${{secrets.APP_ID}}
+  APP_NAME: wright
   VERSION_NUMBER: 1.0.0
   BUILD_TYPE: debug
-  TEAM_ID: XXXXXXXXXX
+  TEAM_ID: ${{secrets.TEAM_ID}}
   PROVISIONING_PROFILE_SPECIFIER: DEV_profile
   CODE_SIGN_IDENTITY: iPhone Developer
-  SIGNING_CERTIFICATE_P12_DATA: ${{secrets.DEBUG_SIGNING_CERTIFICATE_P12_DATA}}
-  SIGNING_CERTIFICATE_PASSWORD: ${{secrets.DEBUG_SIGNING_CERTIFICATE_PASSWORD}}
-  PROVISIONING_PROFILE_DATA: ${{secrets.DEBUG_PROVISIONING_PROFILE_DATA}}
+  SIGNING_CERTIFICATE_P12_DATA: ${{secrets.RELEASE_SIGNING_CERTIFICATE_P12_DATA}}
+  SIGNING_CERTIFICATE_PASSWORD: ${{secrets.RELEASE_SIGNING_CERTIFICATE_PASSWORD}}
+  PROVISIONING_PROFILE_DATA: ${{secrets.RELEASE_PROVISIONING_PROFILE_DATA}}
 
 jobs:
   assemble:
@@ -100,3 +100,13 @@ jobs:
           path: |
             ${{ github.workspace }}/ios/taroDemo.ipa
             ${{ github.workspace }}/ios/taroDemo.app.dSYM.zip
+ - name: Upload release assets
+        uses: softprops/action-gh-release@v1
+        if: startsWith(github.ref, 'refs/tags/')
+        with:
+          prerelease: ${{ contains(github.ref, 'beta') }}
+          files: |
+            ios/app-${{ env.BUILD_TYPE }}.ipa
+            ios/app-${{ env.BUILD_TYPE }}.app.dSYM.zip
+        env:
+          GITHUB_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }}
