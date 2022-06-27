@@ -30,7 +30,7 @@ export function getMenus(params, options) {
 // 推荐商品列表
 export function getRecommend(params, options) {
   return main.get("/recommend", params, {
-    // loading: false,
+    loading: false,
     ignoreErrorTips: true,
     ...options
   });
