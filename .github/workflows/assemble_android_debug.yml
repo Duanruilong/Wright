@@ -32,11 +32,11 @@ env:
   # 密钥库文件
   KEYSTORE_FILE: debug.keystore
   # 密钥库口令
-  KEYSTORE_PASSWORD: android
+  KEYSTORE_PASSWORD:  ${{secrets.RELEASE_KEYSTORE_PASSWORD}}
   # 密钥库别名
   KEYSTORE_KEY_ALIAS: key0
   # 密钥库别名口令
-  KEYSTORE_KEY_PASSWORD: android
+  KEYSTORE_KEY_PASSWORD: ${{secrets.RELEASE_KEYSTORE_PASSWORD}}
 
 # 工作流作业
 jobs:
