@@ -4,10 +4,9 @@ name: Assemble Ios Debug
 # 触发工作流程的事件
 on:
   push:
-    branches: [master]
-    tags: [v*]
+    tags: [ v*, r*, i* ]
   pull_request:
-    branches: [master]
+    branches: [ master ]
 
   workflow_dispatch:
 

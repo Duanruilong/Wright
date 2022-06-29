@@ -14,7 +14,7 @@ on:
 # 工作流环境变量
 env:
   # 应用的application_id
-  APP_ID: ${{secrets.APP_ID}}
+  APP_ID: com.wright
   # 应用名称
   APP_NAME: wright
   # 应用icon
