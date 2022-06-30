@@ -72,24 +72,25 @@ platform :ios do
   lane :app do 
     # add actions here: https://docs.fastlane.tools/actions
     gym(
-    # 每次打包之前clean一下
-    clean: true,    
-    # 打包出 ipa 文件的路径，我放到了桌面文件夹，你自行更改文件夹
-    # output_directory: '/Users/hengqianjin/Desktop/APP', 
-    # 打包的名称，可任意取 
-    output_name: 'wright.ipa', 
-    # 项目的 scheme，自己项目名   .xcworkspace 前面的项目名就是
-    scheme: "taroDemo",      
-    # 默认 Release，Release or Debug     
-    # configuration: 'Debug', 
-    # 是否包含 bitcode  
-    include_bitcode: false,  
-    # 是否包含 symbols 
-    include_symbols: true, 
-    # 打包导出方式，包含 app-store, validation, ad-hoc, package, enterprise, development, developer-id and mac-application   
-    export_method: 'ad-hoc',  
-    # 这个设置是为了设置 xcode 自动配置证书和配置文件，当然也可以手动配置，可以参考文档
-    export_xcargs: '-allowProvisioningUpdates' 
+		# 每次打包之前clean一下
+		clean: true,    
+		# 打包出 ipa 文件的路径，我放到了桌面文件夹，你自行更改文件夹
+		output_directory: '/Users/hengqianjin/Desktop/APP', 
+		# output_directory: './build',      
+		# 打包的名称，可任意取 
+		output_name: 'wright.ipa', 
+		# 项目的 scheme，自己项目名   .xcworkspace 前面的项目名就是
+		scheme: "taroDemo",      
+		# 默认 Release，Release or Debug     
+		# configuration: 'Debug', 
+		# 是否包含 bitcode  
+		include_bitcode: false,  
+		# 是否包含 symbols 
+		include_symbols: true, 
+		# 打包导出方式，包含 app-store, validation, ad-hoc, package, enterprise, development, developer-id and mac-application   
+		export_method: 'ad-hoc',  
+		# 这个设置是为了设置 xcode 自动配置证书和配置文件，当然也可以手动配置，可以参考文档
+		export_xcargs: '-allowProvisioningUpdates' 
     )
     # mac上的通知弹窗，通知打包完毕
     notification(app_icon: "./fastlane/icon.png", title: "manager", subtitle: "打包成功，已导出安装包", message: "准备发布到蒲公英中……")
