@@ -306,7 +306,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.twright;
+				PRODUCT_BUNDLE_IDENTIFIER = wright;
 				PRODUCT_NAME = taroDemo;
 				PROVISIONING_PROFILE_SPECIFIER = "Right things with right price.";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -336,7 +336,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.twright;
+				PRODUCT_BUNDLE_IDENTIFIER = wright;
 				PRODUCT_NAME = taroDemo;
 				PROVISIONING_PROFILE_SPECIFIER = "Right things with right price.";
 				SWIFT_VERSION = 5.0;
