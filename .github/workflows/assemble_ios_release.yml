@@ -121,13 +121,13 @@ jobs:
         run: |
           mv ios/taroDemo.ipa ios/app-${{ env.BUILD_TYPE }}.ipa
           mv ios/taroDemo.app.dSYM.zip ios/app-${{ env.BUILD_TYPE }}.app.dSYM.zip
-      - name: Upload release assets
-        uses: softprops/action-gh-release@v1
-        if: startsWith(github.ref, 'refs/tags/')
-        with:
-          prerelease: ${{ contains(github.ref, 'beta') }}
-          files: |
-            ios/app-${{ env.BUILD_TYPE }}.ipa
-            ios/app-${{ env.BUILD_TYPE }}.app.dSYM.zip
-        env:
-          GITHUB_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }}
+      # - name: Upload release assets
+      #   uses: softprops/action-gh-release@v1
+      #   if: startsWith(github.ref, 'refs/tags/')
+      #   with:
+      #     prerelease: ${{ contains(github.ref, 'beta') }}
+      #     files: |
+      #       ios/app-${{ env.BUILD_TYPE }}.ipa
+      #       ios/app-${{ env.BUILD_TYPE }}.app.dSYM.zip
+      #   env:
+      #     GITHUB_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }}
