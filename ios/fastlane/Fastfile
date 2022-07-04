@@ -48,7 +48,7 @@ platform :ios do
 		increment_build_number
 		build_app(
 			scheme: "taroDemo",
-			# clean: true,
+			clean: true,
 			workspace: "taroDemo.xcworkspace"
 		)
 	end
