@@ -308,7 +308,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = wright;
 				PRODUCT_NAME = taroDemo;
-				PROVISIONING_PROFILE_SPECIFIER = "Right things with right price.";
+				PROVISIONING_PROFILE_SPECIFIER = "wright";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -338,7 +338,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = wright;
 				PRODUCT_NAME = taroDemo;
-				PROVISIONING_PROFILE_SPECIFIER = "Right things with right price.";
+				PROVISIONING_PROFILE_SPECIFIER = "wright";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};

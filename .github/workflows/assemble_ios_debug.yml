@@ -6,8 +6,8 @@ on:
   push:
     # branches: [ master ]
     tags: [ v* ]
-  # pull_request:
-  #   branches: [ master ]
+  pull_request:
+    branches: [ master ]
 
   workflow_dispatch:
 
@@ -15,7 +15,8 @@ on:
 env:
   # 应用的application_id
   # APP_ID: ${{secrets.APP_ID}}
-  APP_ID: com.wright
+  APP_ID: ${{secrets.APP_ID}}
+  # APP_ID: com.wright
   APP_NAME: wright
   VERSION_NUMBER: 1.0.0
   BUILD_TYPE: debug
