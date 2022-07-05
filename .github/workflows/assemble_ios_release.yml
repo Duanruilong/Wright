@@ -16,7 +16,7 @@ on:
 env:
   # 应用的application_id
   # APP_ID: ${{secrets.APP_ID}}
-  APP_ID: wright
+  APP_ID: com.wright
   APP_NAME: wright
   VERSION_NUMBER: 1.0.0
   BUILD_NUMBER: 1.0.0
