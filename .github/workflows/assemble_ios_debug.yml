@@ -4,7 +4,7 @@ name: Assemble Ios Debug
 # 触发工作流程的事件
 on:
   push:
-    # branches: [ master ]
+    branches: [ master ]
     tags: [ v* ]
   pull_request:
     branches: [ master ]
@@ -14,9 +14,7 @@ on:
 # 工作流环境变量
 env:
   # 应用的application_id
-  # APP_ID: ${{secrets.APP_ID}}
   APP_ID: ${{secrets.APP_ID}}
-  # APP_ID: com.wright
   APP_NAME: wright
   VERSION_NUMBER: 1.0.0
   BUILD_TYPE: debug
