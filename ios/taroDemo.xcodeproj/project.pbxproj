@@ -295,6 +295,7 @@
 				DEVELOPMENT_TEAM = FR2PH2MHKY;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = taroDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -326,6 +327,7 @@
 				CURRENT_PROJECT_VERSION = 3.2.6.6;
 				DEVELOPMENT_TEAM = FR2PH2MHKY;
 				INFOPLIST_FILE = taroDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
