@@ -28,17 +28,17 @@ env:
   # 版本名称
   VERSION_NAME: 1.0.0
   # 版本号
-  VERSION_CODE: 10
+  VERSION_CODE: 1.0.0
   # 密钥库文件
   KEYSTORE_FILE: debug.keystore
   # 密钥库口令
-  KEYSTORE_PASSWORD: ${{secrets.RELEASE_KEYSTORE_PASSWORD}}
-  # KEYSTORE_PASSWORD: android
+  # KEYSTORE_PASSWORD: ${{secrets.RELEASE_KEYSTORE_PASSWORD}}
+  KEYSTORE_PASSWORD: android
   # 密钥库别名
   KEYSTORE_KEY_ALIAS: androiddebugkey
   # 密钥库别名口令
-  KEYSTORE_KEY_PASSWORD: ${{secrets.RELEASE_KEYSTORE_PASSWORD}}
-  # KEYSTORE_KEY_PASSWORD: android
+  # KEYSTORE_KEY_PASSWORD: ${{secrets.RELEASE_KEYSTORE_PASSWORD}}
+  KEYSTORE_KEY_PASSWORD: android
 
 # 工作流作业
 jobs:
