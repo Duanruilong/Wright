@@ -2,6 +2,77 @@
 
 // const useName = getStorageData("use-name");
 
+export const ENV = process.env.DEPLOY_ENV;
+
+// export const NAME = useName?.data;
+
+export const VERSION = process.env.VERSION;
+
+export const LOGIN_CHANNEL = "login-channel"; // 登录频道
+
+// export const USERS_KEY = `${NAME}-userid`;
+
+export const LOGIN_PAGE = "/pages/login/index";
+
+export const HOME_PAGE = "/pages/index/index";
+
+export const SYSTEM = "REPRESENT";
+
+// 性别
+export const MAP_SEX = [
+  {
+    code: 1,
+    value: "男"
+  },
+  {
+    code: 2,
+    value: "女"
+  }
+];
+
+// 货币类型,1人民币 2美元
+export const MAP_UNIT = {
+  1: "￥",
+  2: "$"
+};
+
+/**
+ * 搜索本地缓存
+ */
+export const SEARCH_LOCAL = "search-local";
+
+export const COUNTRY = "cn";
+
+export const ALPHABETIC = [
+  "A",
+  "B",
+  "C",
+  "D",
+  "E",
+  "F",
+  "G",
+  "H",
+  "I",
+  "J",
+  "K",
+  "L",
+  "M",
+  "N",
+  "O",
+  "P",
+  "Q",
+  "R",
+  "S",
+  "T",
+  "U",
+  "V",
+  "W",
+  "X",
+  "Y",
+  "Z"
+];
+
+
 export const EMOJIS = [
   { id: 1, src: `😀` },
   { id: 2, src: `😃` },
@@ -124,74 +195,4 @@ export const EMOJIS = [
   { id: 119, src: `👀` },
   { id: 120, src: `👅` },
   { id: 121, src: `👄` }
-];
-
-export const ENV = process.env.DEPLOY_ENV;
-
-// export const NAME = useName?.data;
-
-export const VERSION = process.env.VERSION;
-
-export const LOGIN_CHANNEL = "login-channel"; // 登录频道
-
-// export const USERS_KEY = `${NAME}-userid`;
-
-export const LOGIN_PAGE = "/pages/login/index";
-
-export const HOME_PAGE = "/pages/index/index";
-
-export const SYSTEM = "REPRESENT";
-
-// 性别
-export const MAP_SEX = [
-  {
-    code: 1,
-    value: "男"
-  },
-  {
-    code: 2,
-    value: "女"
-  }
-];
-
-// 货币类型,1人民币 2美元
-export const MAP_UNIT = {
-  1: "￥",
-  2: "$"
-};
-
-/**
- * 搜索本地缓存
- */
-export const SEARCH_LOCAL = "search-local";
-
-export const COUNTRY = "cn";
-
-export const ALPHABETIC = [
-  "A",
-  "B",
-  "C",
-  "D",
-  "E",
-  "F",
-  "G",
-  "H",
-  "I",
-  "J",
-  "K",
-  "L",
-  "M",
-  "N",
-  "O",
-  "P",
-  "Q",
-  "R",
-  "S",
-  "T",
-  "U",
-  "V",
-  "W",
-  "X",
-  "Y",
-  "Z"
 ];
