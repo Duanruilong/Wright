@@ -1,6 +1,15 @@
 React Native Template for Taro
 ====
 
+## Preview
+
+| Android                                                                                | iOS                                                                                    |
+| -------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------- |
+| ![](https://pic3.58cdn.com.cn/nowater/fangfe/n_v295dd481b6b2f446592350e3187716d03.png) | ![](https://pic1.58cdn.com.cn/nowater/fangfe/n_v224532e5560314106b6ab32b0a1534a9d.png) |
+
+
+下载app完成安装，扫描对应release 二维码体验预览，也可以下载安装体验！
+
 ## requirement
 
 0. taro: `@tarojs/cli@^3.2.0`
@@ -144,8 +153,3 @@ For the security of your app, please regenerate the .keystore file and store the
 
 1. [app signing](https://developer.android.com/studio/publish/app-signing)
 2. [encrypted-secrets](https://docs.github.com/en/actions/reference/encrypted-secrets)
-
-## links
-
-0. [template source code](https://github.com/NervJS/taro-project-templates/tree/v3.1/react-native)
-1. [sample project](https://github.com/wuba/taro-react-native/tree/playground)
