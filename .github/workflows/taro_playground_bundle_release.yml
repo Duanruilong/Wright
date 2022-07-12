@@ -38,7 +38,7 @@ jobs:
       - name: Release Taro React Native bundle
         uses: zhiqingchen/taro-react-native-release@v1
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.MY_GITHUB_TOKEN }}
       - name: Upload Qr Image
         uses: actions/upload-artifact@v2
         with:
