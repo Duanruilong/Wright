@@ -13,14 +13,4 @@
         <item name="android:windowTranslucentNavigation">true</item>
     </style>
 
-    <style name="SplashTheme" parent="Theme.Browser">
-        <!-- Customize your theme here. -->
-        <item name="colorPrimary">@color/white</item>
-        <item name="colorPrimaryDark">@color/white</item>
-        <item name="colorAccent">@color/white</item>
-        <item name="android:windowTranslucentStatus">true</item>
-        <item name="android:windowBackground">@drawable/bj</item>
-    </style>
-
-
 </resources>
