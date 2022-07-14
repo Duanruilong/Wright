@@ -17,7 +17,7 @@ env:
   APP_ID: ${{secrets.DEBUG_APP_ID}}
   APP_NAME: Wright
   BUILD_TYPE: debug
-  VERSION_NUMBER: 1.0.0
+  VERSION_NUMBER: 1.0.1
   TEAM_ID: ${{secrets.TEAM_ID}}
   CODE_SIGN_IDENTITY: Apple Development
   # CODE_SIGN_IDENTITY: iPhone Developer
